@@ -1,0 +1,1084 @@
+ERROR - 2023-09-17 06:37:41 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('4')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:37:41 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 06:37:51 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('4')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:37:51 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 06:37:52 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('4')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:37:52 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 06:38:04 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('11')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:38:04 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 06:38:25 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('11')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:38:25 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 06:38:26 --> mysqli_sql_exception: Table 'code.code_1' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Home->update('11')
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 06:38:26 --> Table 'code.code_1' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `code_1`
+WHERE `row` = :row:', [...], false)
+ 2 APPPATH\Models\newmodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(37): App\Models\newmodel->selectonerow('code_1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:21 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:23 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:23 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:27 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:28 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:42:30 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:09 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:10 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:38 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:39 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:39 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:39 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:40 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:43:40 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\code_4\app\Controllers\Home.php on line 40
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Home.php(40): view('my_view/insert', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:44:16 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:44:17 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:48:48 --> Undefined property: stdClass::$pass
+in APPPATH\Views\my_view\insert.php on line 173.
+ 1 APPPATH\Views\my_view\insert.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pass', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 173)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:48:58 --> Undefined property: stdClass::$pass
+in APPPATH\Views\my_view\insert.php on line 173.
+ 1 APPPATH\Views\my_view\insert.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pass', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 173)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:48:59 --> Undefined property: stdClass::$pass
+in APPPATH\Views\my_view\insert.php on line 173.
+ 1 APPPATH\Views\my_view\insert.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pass', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 173)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:48:59 --> Undefined property: stdClass::$pass
+in APPPATH\Views\my_view\insert.php on line 173.
+ 1 APPPATH\Views\my_view\insert.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pass', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 173)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:56:33 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:56:35 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:57:21 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:58:01 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:58:03 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:58:03 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:58:03 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:58:04 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:59:23 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:59:24 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:59:25 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:59:25 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 06:59:25 --> Undefined variable $row
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:41 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:41 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:41 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:42 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:42 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:42 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:42 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:00:42 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:15 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:16 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:16 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:16 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:17 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:18 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:33 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:33 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:42 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:52 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:53 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:53 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:54 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:54 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:54 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:54 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:54 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:55 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:55 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:04:55 --> Undefined variable $id
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:05:19 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:05:20 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:09:35 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:09:36 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 07:09:36 --> Undefined variable $one
+in APPPATH\Views\my_view\insert.php on line 172.
+ 1 APPPATH\Views\my_view\insert.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Insert.php(34): view('my_view/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Insert->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Insert))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 12:46:46 --> mysqli_sql_exception: Table 'code.user' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Newhome.php(14): App\Models\newmodel->check('user', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Newhome->index()
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 12:46:46 --> Table 'code.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `name` = :name:
+AND `pass` = :pass:', [...], false)
+ 2 APPPATH\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Newhome.php(14): App\Models\newmodel->check('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 12:46:49 --> mysqli_sql_exception: Table 'code.user' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Newhome.php(14): App\Models\newmodel->check('user', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Newhome->index()
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 12:46:49 --> Table 'code.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `name` = :name:
+AND `pass` = :pass:', [...], false)
+ 2 APPPATH\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Newhome.php(14): App\Models\newmodel->check('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-17 12:46:52 --> mysqli_sql_exception: Table 'code.user' doesn't exist in C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\code_4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\code_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\code_4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\code_4\app\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\code_4\app\Controllers\Newhome.php(14): App\Models\newmodel->check('user', Array)
+#6 C:\xampp\htdocs\code_4\system\CodeIgniter.php(919): App\Controllers\Newhome->index()
+#7 C:\xampp\htdocs\code_4\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+#8 C:\xampp\htdocs\code_4\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\code_4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-17 12:46:52 --> Table 'code.user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `name` = :name:
+AND `pass` = :pass:', [...], false)
+ 2 APPPATH\Models\newmodel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Newhome.php(14): App\Models\newmodel->check('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:28 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:30 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:35 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:55 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:02:58 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:00 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:30 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:38 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:38 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:39 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:39 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:40 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:03:41 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:04:23 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:06:37 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:06:42 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 14:07:04 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 16:08:29 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 16:41:51 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 16:42:02 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 16:42:55 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 15.
+ 1 APPPATH\Controllers\Newhome.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:23:09 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 16.
+ 1 APPPATH\Controllers\Newhome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:23:14 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 16.
+ 1 APPPATH\Controllers\Newhome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:23:28 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 16.
+ 1 APPPATH\Controllers\Newhome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:23:30 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 16.
+ 1 APPPATH\Controllers\Newhome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:24:26 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 16.
+ 1 APPPATH\Controllers\Newhome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:30:57 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 17.
+ 1 APPPATH\Controllers\Newhome.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:34:46 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 17.
+ 1 APPPATH\Controllers\Newhome.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 17:35:45 --> Attempt to read property "name" on null
+in APPPATH\Controllers\Newhome.php on line 20.
+ 1 APPPATH\Controllers\Newhome.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

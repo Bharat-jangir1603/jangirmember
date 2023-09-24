@@ -1,0 +1,142 @@
+CRITICAL - 2023-09-16 06:57:17 --> Attempt to read property "name" on array
+in APPPATH\Views\my_view\select.php on line 66.
+ 1 APPPATH\Views\my_view\select.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php', 66)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 06:57:32 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\my_view\select.php on line 66.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:01:03 --> Attempt to read property "row" on array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 APPPATH\Views\my_view\select.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "row" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:01:05 --> Attempt to read property "row" on array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 APPPATH\Views\my_view\select.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "row" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:01:05 --> Attempt to read property "row" on array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 APPPATH\Views\my_view\select.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "row" on array', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\select.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:03:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:03:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:05:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:05:18 --> Cannot use object of type stdClass as array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:06:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\my_view\select.php on line 71.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/select', [], true)
+ 4 APPPATH\Controllers\Home.php(14): view('my_view/select', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:46:13 --> Too few arguments to function App\Controllers\Home::delete(), 0 passed in C:\xampp\htdocs\code_4\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:46:30 --> Too few arguments to function App\Controllers\Home::delete(), 0 passed in C:\xampp\htdocs\code_4\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:46:34 --> Too few arguments to function App\Controllers\Home::delete(), 0 passed in C:\xampp\htdocs\code_4\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:57:20 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete([...])
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:57:26 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete([...])
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 07:57:39 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->delete([...])
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

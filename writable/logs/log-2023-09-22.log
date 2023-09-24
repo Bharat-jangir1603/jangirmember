@@ -1,0 +1,208 @@
+CRITICAL - 2023-09-22 03:39:40 --> Only the first byte will be assigned to the string offset
+in APPPATH\Views\my_view\home.php on line 13.
+ 1 APPPATH\Views\my_view\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first byte will be assigned to the string offset', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/home', [], true)
+ 5 APPPATH\Controllers\Newhome.php(51): view('my_view/home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->dase()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 03:39:43 --> Only the first byte will be assigned to the string offset
+in APPPATH\Views\my_view\home.php on line 13.
+ 1 APPPATH\Views\my_view\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first byte will be assigned to the string offset', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/home', [], true)
+ 5 APPPATH\Controllers\Newhome.php(51): view('my_view/home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->dase()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 03:43:40 --> Undefined property: stdClass::$age
+in APPPATH\Views\my_view\insert.php on line 175.
+ 1 APPPATH\Views\my_view\insert.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$age', 'C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php', 175)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\code_4\\app\\Views\\my_view\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('my_view/insert', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('my_view/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->update('9')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 04:19:44 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\code_4\app\Controllers\Newhome.php on line 66
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Newhome.php(66): view('my_view/forms', null)
+ 2 APPPATH\Controllers\Newhome.php(52): App\Controllers\Newhome->codeaj()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Newhome->dase()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Newhome))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 04:38:52 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Newhome.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Newhome')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Newhome')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Newhome', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 04:38:54 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Newhome.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Newhome')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Newhome')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Newhome', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 04:38:57 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Newhome.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\code_4\\app\\Controllers\\Newhome.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Newhome')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Newhome')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Newhome', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:28:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:29:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:29:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:30:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:30:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:30:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:33:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:33:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:33:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:33:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:34:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(52): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:38:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(55): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:38:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(55): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 05:40:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\newmodel.php(55): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Home.php(50): App\Models\newmodel->updat('members', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->upd()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
